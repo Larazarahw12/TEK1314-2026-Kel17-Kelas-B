@@ -13,10 +13,10 @@ Detail alokasi IP dapat dilihat secara lengkap pada file `ip_plan.md`.
 Arsitektur ini mensimulasikan lingkungan penyerangan dan pertahanan dengan 3 komponen utama:
 
 *   **Attacker-Node (Kali Linux - `192.168.17.100`)**
-    Berfungsi sebagai mesin penyerang (Red Team). Mesin ini akan digunakan untuk melakukan *scanning* port, mencari celah keamanan, dan mengeksekusi *exploit* ke arah server target.
+    Berfungsi sebagai mesin penyerang (Red Team). Mesin ini akan digunakan untuk melakukan *scanning* port, mencari celah keamanan, dan mengeksekusi pengujian keamanan ke arah server target.
     
-*   **Target-Node (Metasploitable - `192.168.17.5`)**
-    Berfungsi sebagai server korban. Menggunakan Metasploitable karena OS ini memang didesain rentan dan memiliki banyak port/service terbuka untuk sarana edukasi. Ini akan menjadi sasaran eksploitasi dari *Attacker*.
+*   **Target-Node (Ubuntu Server - `192.168.17.5`)**
+    Berfungsi sebagai server backend replika untuk sistem IoT kelompok kami. Server ini menjalankan layanan dan aplikasi tiruan yang disesuaikan dengan arsitektur sistem IoT asli, menjadi sasaran pengujian keamanan serta objek utama untuk proses *hardening* Blue Team.
 
 *   **Monitoring-SecurityOnion (`192.168.17.200`)**
     Berfungsi sebagai sistem pemantau (Blue Team). Terhubung ke jaringan yang sama untuk merekam dan menganalisis *traffic* jaringan antara *Attacker* dan *Target*. Sistem ini bertugas mendeteksi log serangan atau aktivitas anomali yang terjadi.
