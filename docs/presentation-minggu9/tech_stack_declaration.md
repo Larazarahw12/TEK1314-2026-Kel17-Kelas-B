@@ -1,4 +1,4 @@
-# Deklarasi Tech Stack — Proyek SIMONAT (Sistem Monitoring Pakan Ikan Otomatis)
+# Deklarasi Tech Stack Proyek SIMONAT (Sistem Monitoring Pakan Ikan Otomatis)
 
 | Komponen | Teknologi pada Proyek IoT Asli | Direplikasi sebagai (Target Node) |
 | :--- | :--- | :--- |
