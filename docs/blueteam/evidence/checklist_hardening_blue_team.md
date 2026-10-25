@@ -83,16 +83,7 @@
   * **BEFORE:** Scanning menunjukkan port terbuka tanpa batasan. (`docs/blueteam/evidence/katB_nmap_before.png`)
   * **AFTER:** Output Nmap menunjukkan port tertutup sepenuhnya kecuali `2222`, `80`, dan `1883`. (`docs/blueteam/evidence/katB_nmap_after.png`)
 
-#### B-02: Hardening File Permission Netplan
-* **Tujuan:** Mencegah pengguna non-privilege membaca atau mengubah arsitektur IP statis target node (`192.168.17.5`).
-* **Perintah Eksekusi:**
-  ```bash
-  sudo chmod 600 /etc/netplan/01-netcfg.yaml
-  ```
-* **Bukti:**
-  * Output `ls -l /etc/netplan/01-netcfg.yaml` menunjukkan `-rw-------`: `docs/blueteam/evidence/katB_netplan_permission.png`
-
-#### B-03: System Update & Security Patching
+#### B-02: System Update & Security Patching
 * **Tujuan:** Menutup celah kerentanan *Kernel* dan *Package* tingkat OS (CVE mitigation).
 * **Perintah Eksekusi:**
   ```bash
