@@ -143,7 +143,3 @@
      ```bash
      tail -f /var/log/apache2/access.log
      ```
-* **Bukti SS (Tambahkan oleh rekan tim):**
-  * Bukti file log web aktif: `docs/blueteam/evidence/katC_web_log_verification.png`
-  * Bukti konfigurasi `logrotate`: `docs/blueteam/evidence/katC_logrotate_config.png`
-  * Bukti tangkapan layar terminal simulasi pengujian log *real-time*: `docs/blueteam/evidence/katC_realtime_log_test.png`
