@@ -3,7 +3,6 @@
 ## Skenario Serangan
 
 ### 1. Reconnaissance — Port/Service Scanning
-| | |
 |---|---|
 | **Kategori** | Reconnaissance |
 | **Teknik** | Port/service scanning |
@@ -12,7 +11,6 @@
 | **Tujuan** | Mengintai seluruh port yang terbuka terbuka, serta melihat versi layanan dan OS |
 
 ### 2. Web Application — SQL Injection
-| | |
 |---|---|
 | **Kategori** | Web Application (Web/API/Protokol IoT) |
 | **Teknik** | SQL Injection pada parameter input yang tidak divalidasi |
@@ -21,7 +19,6 @@
 | **Tujuan** | Menyusup lewat celah input yang lengah untuk membongkar isi database, dan mengambil atau menampilkan data yang seharusnya tidak boleh terlihat |
 
 ### 3. Authentication — SSH Brute Force
-| | |
 |---|---|
 | **Kategori** | Authentication |
 | **Teknik** | Brute-force / credential stuffing pada login SSH |
@@ -30,7 +27,6 @@
 | **Tujuan** | Menebak kredensial secara berulang, sampai salah satu kombinasi berhasil menembus |
 
 ### 4. Web/API/Protokol IoT — MQTT Spoofing
-| | |
 |---|---|
 | **Kategori** | Web/API/Protokol IoT |
 | **Teknik** | Publish data palsu ke topic MQTT tanpa autentikasi |
