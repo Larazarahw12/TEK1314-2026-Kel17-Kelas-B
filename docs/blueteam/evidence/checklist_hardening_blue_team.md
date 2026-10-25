@@ -2,7 +2,7 @@
 
 ---
 
-## 📌 Ringkasan Target Node
+##  Ringkasan Target Node
 
 * **Nama Host / VM:** `SIMONAT` (`labvm`)
 * **Sistem Operasi:** Ubuntu 22.04 LTS
@@ -22,11 +22,9 @@
 | **A-02** | Access & Auth | Migrasi Port SSH Default (`22` $\rightarrow$ `2222`) | **SELESAI** | `docs/blueteam/evidence/katA_ssh_port_config.png` |
 | **A-03** | Access & Auth | Implementasi & Pengaktifan Fail2ban (Brute-Force Shield) | **SELESAI** | `docs/blueteam/evidence/katA_fail2ban_status.png`<br>`docs/blueteam/evidence/katA_failed_login_block.png` |
 | **B-01** | Service & Attack Surface | Aktivasi UFW Firewall (*Default Deny Incoming*) | **SELESAI** | `docs/blueteam/evidence/katB_nmap_before.png`<br>`docs/blueteam/evidence/katB_nmap_after.png` |
-| **B-02** | Service & Attack Surface | Lock-down File Permission Netplan (`chmod 600`) | **SELESAI** | `docs/blueteam/evidence/katB_netplan_permission.png` |
-| **B-03** | Service & Attack Surface | OS Patching & Update Kernel Ubuntu | **SELESAI** | `docs/blueteam/evidence/katB_os_patching.png` |
+| **B-02** | Service & Attack Surface | OS Patching & Update Kernel Ubuntu | **SELESAI** | `docs/blueteam/evidence/katB_os_patching.png` |
 | **C-01** | Data & Application | Menyembunyikan Identitas & Versi Web Server (Banner Hiding) | **DALAM PROSES** | `docs/blueteam/evidence/katC_apache_banner_before.png`<br>`docs/blueteam/evidence/katC_apache_banner_after.png`<br>`docs/blueteam/evidence/katC_directory_browsing.png` |
 | **C-02** | Data & Application | Penguatan Layanan & Hak Akses Aplikasi Web (Service Hardening) | **DALAM PROSES** | `docs/blueteam/evidence/katC_disabled_modules.png`<br>`docs/blueteam/evidence/katC_web_permissions.png`<br>`docs/blueteam/evidence/katC_default_files_removed.png` |
-| **C-03** | Data & Application | Penguatan Manajemen Log & Auditing | **DALAM PROSES** | `docs/blueteam/evidence/katC_web_log_verification.png`<br>`docs/blueteam/evidence/katC_logrotate_config.png`<br>`docs/blueteam/evidence/katC_realtime_log_test.png` |
 
 ---
 
