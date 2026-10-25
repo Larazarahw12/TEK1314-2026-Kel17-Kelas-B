@@ -1,4 +1,4 @@
-# Attack Plan — Fase 2 (SOC Engagement)
+# Attack Plan - Fase 2 
 
 ## Skenario Serangan
 
