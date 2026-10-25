@@ -1,6 +1,4 @@
-# Checklist Hardening Target Node SIMONAT (Blue Team)
-
-Dokumen ini berisi daftar inventarisasi, panduan langkah kerja, dan bukti pelaksanaan *security hardening* pada **Target Node SIMONAT** sesuai dengan kriteria standar minimum pertahanan Fase 2 (Bagian VIII).
+# Checklist Hardening Target Node 
 
 ---
 
