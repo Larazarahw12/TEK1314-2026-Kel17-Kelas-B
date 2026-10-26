@@ -17,17 +17,16 @@
 ## Matriks Ringkasan Kontrol Hardening
 
 | ID | Kategori | Deskripsi Kontrol | Status |
-| :--- | :--- | :--- | :---: | :--- |
-| **A-1**  | Access & Auth | Nonaktifkan Direct Root Login via SSH | **SELESAI** | 
-| **A-2** | Access & Auth | Migrasi Port SSH Default (`22` $\rightarrow$ `2222`) | **SELESAI** | 
-| **A-3** | Access & Auth | Implementasi & Pengaktifan Fail2ban (Brute-Force Shield) | **SELESAI** | 
-| **B-1** | Service & Attack Surface | Aktivasi UFW Firewall (*Default Deny Incoming*) | **SELESAI** | 
-| **B-2** | Service & Attack Surface | OS Patching & Update Kernel Ubuntu | **SELESAI** | 
-| **C-1** | Data & Application | Menyembunyikan Identitas & Versi Web Server (Banner Hiding) | **BELUM** | 
-| **C-2** | Data & Application | Penguatan Layanan & Hak Akses Aplikasi Web (Service Hardening) | **BELUM** | 
+| :--- | :--- | :--- | :---: |
+| **A-1** | Access & Auth | Nonaktifkan Direct Root Login via SSH | **SELESAI** |
+| **A-2** | Access & Auth | Migrasi Port SSH Default (`22` → `2222`) | **SELESAI** |
+| **A-3** | Access & Auth | Implementasi & Pengaktifan Fail2ban (Brute-Force Shield) | **SELESAI** |
+| **B-1** | Service & Attack Surface | Aktivasi UFW Firewall (*Default Deny Incoming*) | **SELESAI** |
+| **B-2** | Service & Attack Surface | OS Patching & Update Kernel Ubuntu | **SELESAI** |
+| **C-1** | Data & Application | Menyembunyikan Identitas & Versi Web Server (Banner Hiding) | **BELUM** |
+| **C-2** | Data & Application | Penguatan Layanan & Hak Akses Aplikasi Web (Service Hardening) | **BELUM** |
 
 ---
-
 ## Rincian Implementasi & Bukti Eksperimen
 
 ### Kategori A: Access & Authentication
