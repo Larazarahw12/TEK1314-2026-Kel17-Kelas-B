@@ -16,7 +16,7 @@
 
 ## Matriks Ringkasan Kontrol Hardening
 
-| ID | Kategori | Deskripsi Kontrol | Status | Bukti Sebelum / Sesudah |
+| ID | Kategori | Deskripsi Kontrol | Status |
 | :--- | :--- | :--- | :---: | :--- |
 | **A-1**  | Access & Auth | Nonaktifkan Direct Root Login via SSH | **SELESAI** | `docs/blueteam/evidence/katA_root_ssh_before.png`<br>`docs/blueteam/evidence/katA_root_ssh_after.png` |
 | **A-2** | Access & Auth | Migrasi Port SSH Default (`22` $\rightarrow$ `2222`) | **SELESAI** | `docs/blueteam/evidence/katA_ssh_port_config.png` |
